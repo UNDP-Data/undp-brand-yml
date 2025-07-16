@@ -148,3 +148,29 @@ typography:
     color: dark-red
     background-color: gray-200
     decoration: underline
+defaults:
+  icons:
+    hamburger: https://design.undp.org/icons/hamburger.svg
+    times: https://design.undp.org/icons/times.svg
+    times-circle: https://design.undp.org/icons/times-circle.svg
+    search: https://design.undp.org/icons/search.svg
+    language: https://design.undp.org/icons/language.svg
+    globe: https://design.undp.org/icons/globe.svg
+    calendar: https://design.undp.org/icons/calendar.svg
+    play-circle: https://design.undp.org/icons/play-circle.svg
+    chevron-up-circle: https://design.undp.org/icons/chevron-up-circle.svg
+    chevron-down-circle: https://design.undp.org/icons/chevron-down-circle.svg
+    chevron-left-circle: https://design.undp.org/icons/chevron-left-circle.svg
+    chevron-right-circle: https://design.undp.org/icons/chevron-right-circle.svg
+    chevron-down: https://design.undp.org/icons/chevron-down.svg
+    chevron-up: https://design.undp.org/icons/chevron-up.svg
+    chevron-left: https://design.undp.org/icons/chevron-left.svg
+    chevron-right: https://design.undp.org/icons/chevron-right.svg
+    chevron-small-left: https://design.undp.org/icons/chevron-small-left.svg
+    chevron-small-right: https://design.undp.org/icons/chevron-small-right.svg
+    chevron-small-up: https://design.undp.org/icons/chevron-small-up.svg
+    chevron-small-down: https://design.undp.org/icons/chevron-small-down.svg
+    arrow-right: https://design.undp.org/icons/arrow-right.svg
+    arrow-right-white: https://design.undp.org/icons/arrow-right-white.svg
+    arrow-left: https://design.undp.org/icons/arrow-left.svg
+    arrow-left-white: https://design.undp.org/icons/arrow-left-white.svg
