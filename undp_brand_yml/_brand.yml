@@ -1,0 +1,150 @@
+meta:
+  name:
+    full: United Nations Development Programme
+    short: UNDP
+  link:
+    home: https://www.undp.org
+    github: https://github.com/undp
+    twitter: https://x.com/undp
+    linkedin: https://www.linkedin.com/company/undp
+    facebook: https://www.facebook.com/undp
+    threads: https://www.threads.com/@undp
+    instagram: https://www.instagram.com/undp
+    youtube: https://www.youtube.com/undp
+  description: |
+    UNDP is the leading United Nations organization fighting to end the
+    injustice of poverty, inequality, and climate change. Working with
+    our broad network of experts and partners in 170 countries, we help
+    nations to build integrated, lasting solutions for people and planet.
+    
+    Learn more at undp.org or follow at @UNDP.
+  founded: 1965
+logo:
+  images:
+    favicon: https://www.undp.org/sites/g/files/zskgke326/files/favicon.ico
+    undp-blue:
+      path: https://design.undp.org/images/undp-logo-blue.svg
+      alt: "United Nations Development Programme logo in blue"
+    undp-white:
+      path: https://design.undp.org/images/undp-logo-white.svg
+      alt: "United Nations Development Programme logo in white"
+    pnud-blue:
+      path: https://design.undp.org/images/pnud-logo-blue.svg
+      alt: "United Nations Development Programme logo in blue"
+    pnud-white:
+      path: https://design.undp.org/images/pnud-logo-white.svg
+      alt: "United Nations Development Programme logo in white"
+  small:
+    light: undp-blue
+    dark: undp-white
+  medium:
+    light: undp-blue
+    dark: undp-white
+  large:
+    light: undp-blue
+    dark: undp-white
+color:
+  palette:
+    # https://design.undp.org/?path=/docs/foundation-colors--docs
+    # primary colours
+    blue-100: "#B5D5F5"
+    blue-200: "#94C4F5"
+    blue-300: "#6BABEB"
+    blue-400: "#4F95DD"
+    blue-500: "#3288CE"
+    blue-600: "#0468B1"
+    blue-700: "#1F5A95"
+    gray-100: "#FAFAFA"
+    gray-200: "#F7F7F7"
+    gray-300: "#EDEFF0"
+    gray-400: "#D4D6D8"
+    gray-500: "#A9B1B7"
+    gray-600: "#55606E"
+    gray-700: "#232E3D"
+    # accent colours
+    light-yellow: "#FFEB00"
+    yellow: "#FFEB00"
+    dark-yellow: "#FBC412"
+    light-red: "#FFBCB7"
+    red: "#EE402D"
+    dark-red: "#D12800"
+    light-green: "#B8ECB6"
+    green: "#6DE354"
+    dark-green: "#59BA47"
+    light-azure: "#A2DAF3"
+    azure: "#60D4F2"
+    dark-azure: "#00C1FF"
+    # extra colours from https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/base-minimal.min.css
+    black: "#000000"
+    white: "#ffffff"
+    light-pink: "#ffb4ae"
+    silvery-moonlight: "#ced0d3"
+    shuttle-gray: "#55606f"
+    ebony-clay: "#232e3e"
+    # SDG colours from https://www.un.org/sustainabledevelopment/news/communications-material/
+    sdg-1: "#E5243B"
+    sdg-2: "#DDA63A"
+    sdg-3: "#4C9F38"
+    sdg-4: "#C5192D"
+    sdg-5: "#FF3A21"
+    sdg-6: "#26BDE2"
+    sdg-7: "#FCC30B"
+    sdg-8: "#A21942"
+    sdg-9: "#FD6925"
+    sdg-10: "#DD1367"
+    sdg-11: "#FD9D24"
+    sdg-12: "#BF8B2E"
+    sdg-13: "#3F7E44"
+    sdg-14: "#0A97D9"
+    sdg-15: "#56C02B"
+    sdg-16: "#00689D"
+    sdg-17: "#19486A"
+  foreground: black
+  background: white
+  primary: blue-600
+  secondary: gray-400
+  tertiary: dark-red
+  success: light-green
+  info: light-azure
+  warning: light-red
+  danger: red
+  light: white
+  dark: gray-700
+typography:
+  fonts:
+    - family: ProximaNova
+      source: file
+      files:
+        - path: https://github.com/undp/design-system/raw/refs/heads/master/stories/assets/fonts/proximanova-regular-webfont.woff2
+        - path: https://github.com/undp/design-system/raw/refs/heads/master/stories/assets/fonts/proximanova-bold-webfont.woff2
+          weight: bold
+        - path: https://github.com/undp/design-system/raw/refs/heads/master/stories/assets/fonts/proximanova-semibold-webfont-2.woff2
+          weight: semi-bold
+        - path: https://github.com/undp/design-system/raw/refs/heads/master/stories/assets/fonts/proximanova-regularit-webfont.woff2
+          style: italic
+    - family: Noto Sans Mono
+      source: bunny
+  base:
+    family: ProximaNova
+    size: 1rem
+    line-height: 1.4
+    weight: 400
+  headings:
+    family: ProximaNova
+    weight: semi-bold
+    line-height: 1.15
+    color: black
+  monospace:
+    family: Noto Sans Mono
+    size: 1rem
+  monospace-inline:
+    color: black
+    background-color: gray-200
+  monospace-block:
+    line-height: 1.4
+    color: black
+    background-color: gray-200
+  link:
+    color: dark-red
+    background-color: gray-200
+    decoration: underline
