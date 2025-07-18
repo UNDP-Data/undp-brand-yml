@@ -176,7 +176,7 @@ defaults:
     arrow-left-white: https://design.undp.org/icons/arrow-left-white.svg
   # from https://dataviz.design.undp.org/?path=/story/utilities-colors-data-viz-light-theme--datavizlightmode
   categorical:
-    - "#006EB5"
+    - "#0468B1"
     - "#5DD4F0"
     - "#02A38A"
     - "#E78625"
