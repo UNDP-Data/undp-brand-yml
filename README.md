@@ -25,13 +25,17 @@ A Python package that provides a [`brand.yml`](https://posit-dev.github.io/brand
 Currently, the package is distributed via GitHub only. You can install it with `pip`:
 
 ```bash
+# latest version
+ pip install git+https://github.com/undp-data/undp-brand-yml
+
+# specific release version
  pip install git+https://github.com/undp-data/undp-brand-yml.git@0.1.0
 ```
 
 You can also add it to your `requirements.txt`:
 
 ```requirements
-undp-brand-yml @ git+https://github.com/undp-data/undp-brand-yml.git@0.1.0
+undp-brand-yml @ git+https://github.com/undp-data/undp-brand-yml
 ```
 
 See [VCS Support](https://pip.pypa.io/en/stable/topics/vcs-support/#vcs-support) for more details.
