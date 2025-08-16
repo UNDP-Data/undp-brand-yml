@@ -5,6 +5,7 @@
 [![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
+[![Quarto Publish](https://github.com/UNDP-Data/undp-brand-yml/actions/workflows/publish.yml/badge.svg)](https://github.com/UNDP-Data/undp-brand-yml/actions/workflows/publish.yml)
 
 A Python package that provides a [`brand.yml`](https://posit-dev.github.io/brand-yml/) definition for applying UNDP-branded styling in Shiny and Quarto projects. The project is based on the corporate guidelines from [UNDP Brand](https://brand.undp.org), [UNDP Design System](https://design.undp.org) and [UNDP data viz library](https://dataviz.design.undp.org).
 
