@@ -1,0 +1,84 @@
+---
+title: "UNDP Brand YML"
+subtitle: "Quarto Example"
+date: today
+date-format: iso
+date-modified: last-modified
+author: "Name Surname"
+abstract-title: Abstract
+abstract: |
+    This Quarto document is designed to illustrate how the branding file affects the look and feel of documents across several formats. It contains a mix of placeholder text (lorem ipsum) and HDI-related content for illustration purposes only. It is designed to provide an example of how various elements of a Quarto document, such as images, tables, figures, references, are branded. Refer to [undp-data/undp-brand-yml](https://github.com/UNDP-Data/undp-brand-yml) repository for more details about the package.
+lang: en
+copyright: © United Nations Development Programme
+number-sections: true
+tbl-cap-location: bottom
+brand: undp_brand_yml/_brand.yml
+format: 
+  html: default
+  pdf: default
+  gfm: default
+---
+
+# Section
+
+{{< lipsum 1 random=true >}}
+
+## Subsection A
+
+{{< lipsum 1 random=true >}}
+
+![Farmland Image by UNDP/Angola Jerome Bell](https://design.undp.org/static/media/farmland-lg.02a6e58d.jpg)
+
+{{< lipsum 1 random=true >}}
+
+## Subsection B
+
+{{< lipsum 1 random=true >}}
+
+| Country                | Life expectancy at birth (years)   | Expected years of schooling (years)   | Mean years of schooling (years)   | GNI per capita (2021 PPP $)   | HDI   |
+|:-----------------------|:----------------------------------:|:-------------------------------------:|:---------------------------------:|:-----------------------------:|:-----:|
+| Iceland                | 82,7                               | 18,9                                  | 13,9                              | 69 117                        | 0,972 |
+| Norway                 | 83,3                               | 18,8                                  | 13,1                              | 112 710                       | 0,970 |
+| Switzerland            | 84,0                               | 16,7                                  | 13,9                              | 81 949                        | 0,970 |
+| Denmark                | 81,9                               | 18,7                                  | 13,0                              | 76 008                        | 0,962 |
+| Germany                | 81,4                               | 17,3                                  | 14,3                              | 64 053                        | 0,959 |
+| Sweden                 | 83,3                               | 19,0                                  | 12,7                              | 66 102                        | 0,959 |
+| Australia              | 83,9                               | 20,7                                  | 12,9                              | 58 277                        | 0,958 |
+| Hong Kong, China (SAR) | 85,5                               | 16,9                                  | 12,4                              | 69 436                        | 0,955 |
+| Netherlands            | 82,2                               | 18,6                                  | 12,7                              | 68 344                        | 0,955 |
+| Belgium                | 82,1                               | 19,0                                  | 12,7                              | 63 582                        | 0,951 |
+
+: Top 10 Countries by 2025 Human Development Index (HDI) and its Components[^1] {#tbl-hdi tbl-colwidths="[20,16,16,16,16,16]" .striped .hover}
+
+As seen in @tbl-hdi.
+{{< lipsum 1 random=true >}}
+
+
+## Subsection C
+
+{{< lipsum 1 random=true >}}
+
+```{mermaid}
+%%| label: fig-hdi
+%%| fig-cap: "Graphical Presentation of HDI Calculation[^2]"
+%%| fig-width: 6
+
+flowchart TD
+  A[Long and healthy life] --> B(Life expectancy at birth)
+  B --> C[[Life expectancy index]]
+  C --> D[(Human Development Index)]
+  E[Knowledge] --> F(Expected years of schooling)
+  F --> G[[Education Index]]
+  E --> H(Mean years of schooling)
+  H --> G
+  G --> D
+  I[A decent standard of living] --> J(GNI per capita)
+  J --> K[[GNI index]]
+  K --> D
+```
+
+The components of the HDI are depicted in @fig-hdi above.
+{{< lipsum 1 random=true >}}
+
+[^1]: Source: UNDP (United Nations Development Programme). 2025. Human Development Report 2025: A matter of choice: People and possibilities in the age of AI. New York Retrieved from [hdr.undp.org](https://hdr.undp.org/data-center/human-development-index#/indicies/HDI).
+[^2]: Adopted from [2025 HDR Technical Note](https://hdr.undp.org/data-center/documentation-and-downloads).
