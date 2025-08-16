@@ -15,7 +15,6 @@ tbl-cap-location: bottom
 brand: undp_brand_yml/_brand.yml
 format: 
   html: default
-  pdf: default
   gfm: default
 ---
 
