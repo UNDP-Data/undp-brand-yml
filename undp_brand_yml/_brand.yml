@@ -112,7 +112,7 @@ color:
   dark: gray-700
 typography:
   fonts:
-    - family: ProximaNova
+    - family: Proxima Nova
       source: file
       files:
         - path: https://github.com/undp/design-system/raw/refs/heads/master/stories/assets/fonts/proximanova-regular-webfont.woff2
@@ -125,12 +125,12 @@ typography:
     - family: Noto Sans Mono
       source: bunny
   base:
-    family: ProximaNova
+    family: Proxima Nova
     size: 1rem
     line-height: 1.4
     weight: 400
   headings:
-    family: ProximaNova
+    family: Proxima Nova
     weight: semi-bold
     line-height: 1.15
     color: black
