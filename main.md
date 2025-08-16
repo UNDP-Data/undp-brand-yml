@@ -4,48 +4,64 @@ Name Surname
 
 # Section
 
-Maecenas turpis velit, ultricies non elementum vel, luctus nec nunc.
-Nulla a diam interdum, faucibus sapien viverra, finibus metus. Donec non
-tortor diam. In ut elit aliquet, bibendum sem et, aliquam tortor. Donec
-congue, sem at rhoncus ultrices, nunc augue cursus erat, quis porttitor
-mauris libero ut ex. Nullam quis leo urna. Donec faucibus ligula eget
-pellentesque interdum. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Aenean rhoncus interdum erat ut ultricies. Aenean
-tempus ex non elit suscipit, quis dignissim enim efficitur. Proin
-laoreet enim massa, vitae laoreet nulla mollis quis.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis
+posuere ligula sit amet lacinia. Duis dignissim pellentesque magna,
+rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum
+in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit
+amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit,
+non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante
+volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit
+amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim,
+at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis
+parturient montes, nascetur ridiculus mus.
 
 ## Subsection A
 
-Praesent ornare dolor turpis, sed tincidunt nisl pretium eget. Curabitur
-sed iaculis ex, vitae tristique sapien. Quisque nec ex dolor. Quisque ut
-nisl a libero egestas molestie. Nulla vel porta nulla. Phasellus id
-pretium arcu. Etiam sed mi pellentesque nibh scelerisque elementum sed
-at urna. Ut congue molestie nibh, sit amet pretium ligula consectetur
-eu. Integer consectetur augue justo, at placerat erat posuere at. Ut
-elementum urna lectus, vitae bibendum neque pulvinar quis. Suspendisse
-vulputate cursus eros id maximus. Duis pulvinar facilisis massa, et
-condimentum est viverra congue. Curabitur ornare convallis nisl. Morbi
-dictum scelerisque turpis quis pellentesque. Etiam lectus risus, luctus
-lobortis risus ut, rutrum vulputate justo. Nulla facilisi.
+Duis ornare ex ac iaculis pretium. Maecenas sagittis odio id erat
+pharetra, sit amet consectetur quam sollicitudin. Vivamus pharetra quam
+purus, nec sagittis risus pretium at. Nullam feugiat, turpis ac accumsan
+interdum, sem tellus blandit neque, id vulputate diam quam semper nisl.
+Donec sit amet enim at neque porttitor aliquet. Phasellus facilisis
+nulla eget placerat eleifend. Vestibulum non egestas eros, eget lobortis
+ipsum. Nulla rutrum massa eget enim aliquam, id porttitor erat luctus.
+Nunc sagittis quis eros eu sagittis. Pellentesque dictum, erat at
+pellentesque sollicitudin, justo augue pulvinar metus, quis rutrum est
+mi nec felis. Vestibulum efficitur mi lorem, at elementum purus
+tincidunt a. Aliquam finibus enim magna, vitae pellentesque erat
+faucibus at. Nulla mauris tellus, imperdiet id lobortis et, dignissim
+condimentum ipsum. Morbi nulla orci, varius at aliquet sed, facilisis id
+tortor. Donec ut urna nisi.
 
 ![Farmland Image by UNDP/Angola Jerome
 Bell](https://design.undp.org/static/media/farmland-lg.02a6e58d.jpg)
 
-Nulla eget cursus ipsum. Vivamus porttitor leo diam, sed volutpat lectus
-facilisis sit amet. Maecenas et pulvinar metus. Ut at dignissim tellus.
-In in tincidunt elit. Etiam vulputate lobortis arcu, vel faucibus leo
-lobortis ac. Aliquam erat volutpat. In interdum orci ac est euismod
-euismod. Nunc eleifend tristique risus, at lacinia odio commodo in. Sed
-aliquet ligula odio, sed tempor neque ultricies sit amet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis
+posuere ligula sit amet lacinia. Duis dignissim pellentesque magna,
+rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum
+in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit
+amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit,
+non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante
+volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit
+amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim,
+at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis
+parturient montes, nascetur ridiculus mus.
 
 ## Subsection B
 
-Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit
-amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in
-elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor
-ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras
-finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros
-quis lectus lacinia venenatis hendrerit vel ante.
+Duis ornare ex ac iaculis pretium. Maecenas sagittis odio id erat
+pharetra, sit amet consectetur quam sollicitudin. Vivamus pharetra quam
+purus, nec sagittis risus pretium at. Nullam feugiat, turpis ac accumsan
+interdum, sem tellus blandit neque, id vulputate diam quam semper nisl.
+Donec sit amet enim at neque porttitor aliquet. Phasellus facilisis
+nulla eget placerat eleifend. Vestibulum non egestas eros, eget lobortis
+ipsum. Nulla rutrum massa eget enim aliquam, id porttitor erat luctus.
+Nunc sagittis quis eros eu sagittis. Pellentesque dictum, erat at
+pellentesque sollicitudin, justo augue pulvinar metus, quis rutrum est
+mi nec felis. Vestibulum efficitur mi lorem, at elementum purus
+tincidunt a. Aliquam finibus enim magna, vitae pellentesque erat
+faucibus at. Nulla mauris tellus, imperdiet id lobortis et, dignissim
+condimentum ipsum. Morbi nulla orci, varius at aliquet sed, facilisis id
+tortor. Donec ut urna nisi.
 
 <div id="tbl-hdi">
 
@@ -67,32 +83,27 @@ Components[^1]
 
 </div>
 
-As seen in <a href="#tbl-hdi" class="quarto-xref">Table 1</a>. Praesent
-ornare dolor turpis, sed tincidunt nisl pretium eget. Curabitur sed
-iaculis ex, vitae tristique sapien. Quisque nec ex dolor. Quisque ut
-nisl a libero egestas molestie. Nulla vel porta nulla. Phasellus id
-pretium arcu. Etiam sed mi pellentesque nibh scelerisque elementum sed
-at urna. Ut congue molestie nibh, sit amet pretium ligula consectetur
-eu. Integer consectetur augue justo, at placerat erat posuere at. Ut
-elementum urna lectus, vitae bibendum neque pulvinar quis. Suspendisse
-vulputate cursus eros id maximus. Duis pulvinar facilisis massa, et
-condimentum est viverra congue. Curabitur ornare convallis nisl. Morbi
-dictum scelerisque turpis quis pellentesque. Etiam lectus risus, luctus
-lobortis risus ut, rutrum vulputate justo. Nulla facilisi.
+As seen in <a href="#tbl-hdi" class="quarto-xref">Table 1</a>. Duis urna
+urna, pellentesque eu urna ut, malesuada bibendum dolor. Suspendisse
+potenti. Vivamus ornare, arcu quis molestie ultrices, magna est accumsan
+augue, auctor vulputate erat quam quis neque. Nullam scelerisque odio
+vel ultricies facilisis. Ut porta arcu non magna sagittis lacinia. Cras
+ornare vulputate lectus a tristique. Pellentesque ac arcu congue,
+rhoncus mi id, dignissim ligula.
 
 ## Subsection C
 
-Aenean placerat luctus tortor vitae molestie. Nulla at aliquet nulla.
-Sed efficitur tellus orci, sed fringilla lectus laoreet eget. Vivamus
-maximus quam sit amet arcu dignissim, sed accumsan massa ullamcorper.
-Sed iaculis tincidunt feugiat. Nulla in est at nunc ultricies dictum ut
-vitae nunc. Aenean convallis vel diam at malesuada. Suspendisse arcu
-libero, vehicula tempus ultrices a, placerat sit amet tortor. Sed dictum
-id nulla commodo mattis. Aliquam mollis, nunc eu tristique faucibus,
-purus lacus tincidunt nulla, ac pretium lorem nunc ut enim. Curabitur
-eget mattis nisl, vitae sodales augue. Nam felis massa, bibendum sit
-amet nulla vel, vulputate rutrum lacus. Aenean convallis odio pharetra
-nulla mattis consequat.
+Etiam maximus accumsan gravida. Maecenas at nunc dignissim, euismod enim
+ac, bibendum ipsum. Maecenas vehicula velit in nisl aliquet ultricies.
+Nam eget massa interdum, maximus arcu vel, pretium erat. Maecenas sit
+amet tempor purus, vitae aliquet nunc. Vivamus cursus urna velit,
+eleifend dictum magna laoreet ut. Duis eu erat mollis, blandit magna id,
+tincidunt ipsum. Integer massa nibh, commodo eu ex vel, venenatis
+efficitur ligula. Integer convallis lacus elit, maximus eleifend lacus
+ornare ac. Vestibulum scelerisque viverra urna id lacinia. Vestibulum
+ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+curae; Aenean eget enim at diam bibendum tincidunt eu non purus. Nullam
+id magna ultrices, sodales metus viverra, tempus turpis.
 
 ``` mermaid
 
@@ -110,16 +121,18 @@ flowchart TD
   K --> D
 ```
 
-The components of the HDI are depicted in **?@fig-hdi** above. Maecenas
-turpis velit, ultricies non elementum vel, luctus nec nunc. Nulla a diam
-interdum, faucibus sapien viverra, finibus metus. Donec non tortor diam.
-In ut elit aliquet, bibendum sem et, aliquam tortor. Donec congue, sem
-at rhoncus ultrices, nunc augue cursus erat, quis porttitor mauris
-libero ut ex. Nullam quis leo urna. Donec faucibus ligula eget
-pellentesque interdum. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Aenean rhoncus interdum erat ut ultricies. Aenean
-tempus ex non elit suscipit, quis dignissim enim efficitur. Proin
-laoreet enim massa, vitae laoreet nulla mollis quis.
+The components of the HDI are depicted in **?@fig-hdi** above. Etiam
+maximus accumsan gravida. Maecenas at nunc dignissim, euismod enim ac,
+bibendum ipsum. Maecenas vehicula velit in nisl aliquet ultricies. Nam
+eget massa interdum, maximus arcu vel, pretium erat. Maecenas sit amet
+tempor purus, vitae aliquet nunc. Vivamus cursus urna velit, eleifend
+dictum magna laoreet ut. Duis eu erat mollis, blandit magna id,
+tincidunt ipsum. Integer massa nibh, commodo eu ex vel, venenatis
+efficitur ligula. Integer convallis lacus elit, maximus eleifend lacus
+ornare ac. Vestibulum scelerisque viverra urna id lacinia. Vestibulum
+ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+curae; Aenean eget enim at diam bibendum tincidunt eu non purus. Nullam
+id magna ultrices, sodales metus viverra, tempus turpis.
 
 [^1]: Source: UNDP (United Nations Development Programme). 2025. Human
     Development Report 2025: A matter of choice: People and
