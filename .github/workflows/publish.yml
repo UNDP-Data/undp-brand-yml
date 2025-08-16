@@ -23,5 +23,7 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          GITHUB_USERNAME: github-actions[bot]
+          GITHUB_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
