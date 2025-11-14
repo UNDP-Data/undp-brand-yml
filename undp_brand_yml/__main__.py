@@ -3,6 +3,7 @@ A CLI for adding `_brand.yml` to a project.
 """
 
 import os
+import shutil
 from argparse import ArgumentParser
 from importlib import resources
 from pathlib import Path
@@ -29,7 +30,7 @@ def main(folder_path: Path, overwrite: bool) -> Path | None:
     if not folder_path.is_dir():
         raise NotADirectoryError("`folder_path` must be a directory.")
     file_path = folder_path.joinpath("_brand.yml")
-    if os.path.exists(file_path):
+    if file_path.exists():
         if not overwrite:
             print(
                 "`_brand.yml` already exists at the project location."
@@ -38,9 +39,7 @@ def main(folder_path: Path, overwrite: bool) -> Path | None:
             )
             return None
         print(f"{file_path} already exists. Overwriting...")
-    data = resources.files().joinpath("_brand.yml").read_bytes()
-    with open(file_path, "wb") as file:
-        file.write(data)
+    shutil.copy(resources.files().joinpath("_brand.yml"), file_path)
     print(f"Created {file_path}.")
     return file_path
 
