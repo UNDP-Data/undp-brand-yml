@@ -185,4 +185,5 @@ cython_debug/
 
 # Quarto
 /.quarto/
+**/*.quarto_ipynb
 /docs/
