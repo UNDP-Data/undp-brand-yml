@@ -187,3 +187,8 @@ cython_debug/
 /.quarto/
 **/*.quarto_ipynb
 /docs/
+
+# Brand YAML
+# This file is to be fetched during build and placed into the package.
+# It should not be committed to avoid any confusion.
+_brand.yml
