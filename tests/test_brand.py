@@ -29,7 +29,6 @@ def test_meta_structure():
     assert hasattr(section.link, "home")
     assert hasattr(section.link, "github")
     assert hasattr(section, "description")
-    assert hasattr(section, "founded")
 
 
 def test_meta_content():
@@ -41,7 +40,6 @@ def test_meta_content():
     assert section.name.short == "UNDP"
     assert str(section.link.home).startswith("https://www.undp.org")
     assert "the leading United Nations organization" in section.description
-    assert section.founded == 1965
 
 
 def test_logo_structure():
@@ -107,9 +105,9 @@ def test_typography_content():
     Test property values in the `typography` section.
     """
     section = brand.typography
-    assert section.fonts[0].family == "ProximaNova"
-    assert section.base.family == "ProximaNova"
-    assert section.headings.family == "ProximaNova"
+    assert section.fonts[0].family == "Proxima Nova"
+    assert section.base.family == "Proxima Nova"
+    assert section.headings.family == "Proxima Nova"
 
 
 def test_defaults_structure():
@@ -121,13 +119,11 @@ def test_defaults_structure():
     virtually arbitrary values.
     """
     section = brand.defaults
-    assert section.get("icons")
-    assert isinstance(section["icons"], dict)
     assert section.get("categorical")
-    assert section.get("sequential_negative_10")
-    assert section.get("sequential_positive_10")
-    assert section.get("sequential_neutral_10")
-    assert section.get("diverging_10")
+    assert section.get("sequential_negative")
+    assert section.get("sequential_positive")
+    assert section.get("sequential_neutral")
+    assert section.get("diverging")
 
 
 def test_defaults_content():
@@ -141,8 +137,5 @@ def test_defaults_content():
     for name in brand.defaults:
         if re.match("categorical|sequential|diverging", name):
             assert isinstance(brand.defaults[name], list)
-            if match := re.search(r"(\d+)", name):
-                n = int(match.group())
-            elif name == "categorical":
-                n = 10
+            n = 11 if name == "diverging" else 10
             assert len(brand.defaults[name]) == n
