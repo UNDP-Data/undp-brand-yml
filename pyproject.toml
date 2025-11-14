@@ -13,6 +13,9 @@ dependencies = [
 ]
 
 
+[project.optional-dependencies]
+plotting = ["plotly[express] (>=6.4.0,<7.0.0)"]
+
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
