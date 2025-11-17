@@ -7,10 +7,10 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![Quarto Publish](https://github.com/UNDP-Data/undp-brand-yml/actions/workflows/publish.yml/badge.svg)](https://github.com/UNDP-Data/undp-brand-yml/actions/workflows/publish.yml)
 
-A Python package that provides a [`brand.yml`](https://posit-dev.github.io/brand-yml/) definition for applying UNDP-branded styling in Shiny and Quarto projects. The project is based on the corporate guidelines from [UNDP Brand](https://brand.undp.org), [UNDP Design System](https://design.undp.org) and [UNDP data viz library](https://dataviz.design.undp.org).
+A Python package that provides the [`brand.yml`](https://posit-dev.github.io/brand-yml/) definition for applying UNDP-branded styling in Shiny and Quarto projects. The project is based on the corporate guidelines from [UNDP Brand](https://brand.undp.org), [UNDP Design System](https://design.undp.org) and [UNDP data viz library](https://dataviz.design.undp.org).
 
-> [!WARNING]  
-> The specifications in the `_brand.yml` provided in this package are currently under development. Prior to `v1.0.0`, this package should be considered experimental. Consult the resources above for detailed guidance on corporate branding. For ideas and feedback, feel free to [open an issue](https://github.com/UNDP-Data/undp-brand-yml/issues).
+> [!NOTE]  
+> This package uses `_brand.yml` file from the brand extension in [`extensions-for-quarto`](https://github.com/UNDP-Data/extensions-for-quarto) project. As of the time of writing, that extension is still under development. Before the release of version `1.0.0` of the extension, this package should be considered experimental. Consult the resources above for the detailed guidance on corporate branding. For ideas and feedback, feel free to [open an issue](https://github.com/UNDP-Data/undp-brand-yml/issues).
 
 ## Table of Contents
 
@@ -23,27 +23,81 @@ A Python package that provides a [`brand.yml`](https://posit-dev.github.io/brand
 
 ## Installation
 
-Currently, the package is distributed via GitHub only. You can install it with `pip`:
+This package is distributed via GitHub only. You can install it with `pip`:
 
 ```bash
-# latest version
- pip install git+https://github.com/undp-data/undp-brand-yml
+# latest (unstable) version
+pip install git+https://github.com/undp-data/undp-brand-yml
 
 # specific release version
- pip install git+https://github.com/undp-data/undp-brand-yml.git@0.1.0
+pip install git+https://github.com/undp-data/undp-brand-yml.git@0.1.0
+
+# specific release version with extras
+pip install undp-brand-yml[plotting] @ git+https://github.com/undp-data/undp-brand-yml.git@0.1.0
 ```
 
-You can also add it to your `requirements.txt`:
+Similarly, you can add it to your `requirements.txt`:
 
-```requirements
-undp-brand-yml @ git+https://github.com/undp-data/undp-brand-yml
+```txt
+# specific release version (recommended)
+undp-brand-yml @ git+https://github.com/undp-data/undp-brand-yml.git@0.1.0
 ```
 
-See [VCS Support](https://pip.pypa.io/en/stable/topics/vcs-support/#vcs-support) for more details.
+See [VCS Support](https://pip.pypa.io/en/stable/topics/vcs-support/#vcs-support) in `pip` documenation for more details.
+
+> [!TIP]
+> It is strongly recommended to install the package in a virtual environment. Refer to [Creating virtual environments](https://docs.python.org/3/library/venv.html) section in the Python documentation to learn more about `venv`.
 
 ## Usage
 
-The package is designed to provide "ground truth" definitions for some of the core corporate design aspects, including logos, colours and fonts. It is mainly intended to be used as a dependency in other packages and projects. But you can also use it directly to get definitions of interest:
+The package is designed to provide "ground truth" definitions for some of the core corporate design aspects, including logos, colours, and fonts. It is mainly intended to be used as a dependency in other packages and projects. But you can also use it directly to get definitions of interest.
+
+### Usage in Quarto
+
+Quarto provides built-in multiformat support for `_brand.yml`. To have the branding applied, the brand file must be present in the project directory. You can easily add it to your project by running the following command in your terminal:
+
+```sh
+python -m undp_brand_yml
+```
+
+Alternatively, you can modify your `_quarto.yml` to include a `pre-render` command:
+
+```yaml
+project:
+  title: "Project Title"
+  pre-render: python -m undp_brand_yml
+```
+
+This will ensure the corporate `_brand.yml` is added to your project every time you render your document(s). By default, the command will do nothing if `_brand.yml` file already exists in the project. So, if you have modified the file, your changes will not be overwritten.
+
+> [!IMPORTANT]
+> Quarto `1.8.20` introduced support for [brand extensions](https://quarto.org/docs/extensions/brand.html), which are now the recommended way to distribute `_brand.yml` and related files. You should consider using the brand extension instead of using this Python package. Refer to [extensions-for-quarto](https://github.com/UNDP-Data/extensions-for-quarto) project to learn more.
+
+### Usage in Shiny for Python
+
+Like in Quarto projects, Shiny for Python applications require a `_brand.yml` file to be present in your project's directory. However, unlike Quarto, Shiny for Python has no support for brand extensions. You must therefore manually add the file by running the following command in your terminal:
+
+```sh
+python -m undp_brand_yml
+```
+
+You will also need to modify your `app.py` file to enable branding:
+
+```py
+from shiny import ui
+
+app_ui = ui.page_fluid(
+    # App UI code...
+    theme=ui.Theme.from_brand(__file__)
+)
+```
+
+> [!TIP]
+> Refer to [Branded theming for Shiny for Python apps](https://shiny.posit.co/blog/posts/shiny-python-1.2-brand-yml/) to learn more about `_brand.yml` support in Shiny for Python.
+
+### Usage as a package
+
+For more advanced use cases, you may want to programmatically access the specifications from `_brand.yml`. Here is an example of how you can do so:
 
 ```python
 from undp_brand_yml import brand
@@ -64,35 +118,44 @@ print(list(brand.color.palette))
 
 # get colour scheme definitions for plotting
 print(brand.defaults["categorical"])
-print(brand.defaults["sequential_neutral_5"])
+print(brand.defaults["sequential_neutral"])
 ```
 
-As stated in [the documentation](https://quarto.org/docs/authoring/brand.html), Quarto provides built-in support for `_brand.yml`. You can easily add UNDP's `_brand.yml` to your project by running the following command in your terminal:
-
-```sh
-python -m undp_brand_yml
-```
-
-Alternatively, you can modify your `_quarto.yml` to include a `pre-render` command:
-
-```yml
-project:
-  title: "Untitled"
-  pre-render: python -m undp_brand_yml
-```
-
-This will ensure the corporate `_brand.yml` is added to your project every time you render your document. By default, the command will do nothing if `_brand.yml` file already exists in the project, so if you have modified the file, your changes will not be overwritten.
+### `plotting` extra
 
 > [!IMPORTANT]  
-> `_brand.yml` provides just a starting point for styling projects and by no means replaces the corporate guidelines. Adding the file to your project alone will not suffice to align its design with the guidelines. You will most likely need to complement it with custom CSS or templates to improve the look and feel of your outputs. We plan on providing templates for several Quarto formats in the future.
+> You must have `plotting` extra installed to make use of the functionality descrived in this section. Refer to [Installation](#installation) section above for details.
+
+If your project includes a data visualisation component, consider using the [`plotly`](https://plotly.com/python) library, whose figures can be easily styled using this package:
+
+```python
+import plotly.express as px
+from undp_brand_yml.plotting import set_plotly_theme
+
+# set the default theme to UNDP branding
+set_plotly_theme()
+
+df = px.data.iris()
+fig = px.scatter(data_frame=df, x="petal_length", y="petal_width", color="species")
+fig.update_layout(xaxis={"rangemode": "tozero"}, yaxis={"rangemode": "tozero"})
+fig.show()
+```
+
+> [!TIP]
+> For JavaScript projects, consider using [UNDP data viz library](https://github.com/undp/data-visualization).
+
 
 ## Features
 
-The package ships a `brand.yml` file with definitions based on the corporate guidelines. Its main purpose is to be a dependency for other packages and projects, while its features include:
+The package ships the `_brand.yml` file based on the corporate guidelines. Its main purpose is to be a dependency for other packages and projects. Its features include:
 
-- Metadata, logo, colour and typography definitions in line with the UNDP Design System and UNDP data viz library.
-- Additional definitions for colour schemes and icons.
-- A single dependency (`brand-yml`).
+- **Comprehensiveness**: the package provides metadata, logo, colour and typography definitions, all in just one file.
+- **Consistency**: the specifications are in line with the UNDP Design System and UNDP data viz library.
+- **Versatility**: the package can be used in Quarto or Shiny for Python applications alike. It can also style `plotly` figures using `plotting` extras.
+- **Minimalism**: a single required dependency (`brand-yml`).
+
+> [!IMPORTANT]  
+> `_brand.yml` provides just a starting point for styling projects and by no means replaces the corporate guidelines. Adding the file to your project alone will often not suffice to fully align its design with the guidelines. You might need to complement it with custom CSS or templates to improve the look and feel of your outputs.
 
 ## Contributing
 
