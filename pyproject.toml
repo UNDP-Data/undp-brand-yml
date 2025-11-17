@@ -25,6 +25,8 @@ pylint = "^3.3.7"
 black = "^25.1.0"
 isort = "^6.0.1"
 pytest = "^8.4.1"
+jupyter = "^1.1.1"
+pandas = "^2.3.3"
 
 [tool.poetry.build]
 script = "build.py"
