@@ -4,7 +4,7 @@ Custom theme templates for Plotly based on UNDP data viz library.
 
 import plotly.graph_objects as go
 
-from .._brand import brand
+from ..brand import brand
 
 __all__ = ["LIGHT", "DARK"]
 
