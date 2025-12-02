@@ -30,3 +30,6 @@ pandas = "^2.3.3"
 
 [tool.poetry.build]
 script = "build.py"
+
+[tool.poetry]
+include = ["undp_brand_yml/_brand.yml"]
