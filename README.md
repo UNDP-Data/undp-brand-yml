@@ -30,17 +30,17 @@ This package is distributed via GitHub only. You can install it with `pip`:
 pip install git+https://github.com/undp-data/undp-brand-yml
 
 # specific release version
-pip install git+https://github.com/undp-data/undp-brand-yml.git@0.1.0
+pip install git+https://github.com/undp-data/undp-brand-yml.git@0.2.0
 
 # specific release version with extras
-pip install undp-brand-yml[plotting] @ git+https://github.com/undp-data/undp-brand-yml.git@0.1.0
+pip install undp-brand-yml[plotting] @ git+https://github.com/undp-data/undp-brand-yml.git@0.2.0
 ```
 
 Similarly, you can add it to your `requirements.txt`:
 
 ```txt
 # specific release version (recommended)
-undp-brand-yml @ git+https://github.com/undp-data/undp-brand-yml.git@0.1.0
+undp-brand-yml @ git+https://github.com/undp-data/undp-brand-yml.git@0.2.0
 ```
 
 See [VCS Support](https://pip.pypa.io/en/stable/topics/vcs-support/#vcs-support) in `pip` documenation for more details.
