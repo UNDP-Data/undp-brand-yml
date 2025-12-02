@@ -32,4 +32,6 @@ pandas = "^2.3.3"
 script = "build.py"
 
 [tool.poetry]
-include = ["undp_brand_yml/_brand.yml"]
+include = [
+    { path = "undp_brand_yml/_brand.yml", format = ["sdist", "wheel"] }
+]
