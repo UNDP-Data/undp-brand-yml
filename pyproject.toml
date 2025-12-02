@@ -1,7 +1,7 @@
 [project]
 name = "undp-brand-yml"
 version = "0.1.1"
-description = "A utility package that provides `brand.yml` definition for applying UNDP-branded styling in Shiny and Quarto projects."
+description = "Apply UNDP-branded styling to Shiny and Quarto projects using `brand.yml`."
 authors = [
     {name = "Mykola Skrynnyk"}
 ]
